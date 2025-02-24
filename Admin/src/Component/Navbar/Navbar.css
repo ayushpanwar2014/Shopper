@@ -1,0 +1,37 @@
+.navbar{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    -webkit-box-shadow: 3px 3px 29px 0px rgba(0, 0, 0, 0.442);
+    box-shadow: 3px 3px 29px 0px rgba(0, 0, 0, 0.444);
+    margin-bottom: 1px;
+    background: white;
+}
+
+.nav-logo{
+    width: 200px;
+    cursor: pointer;
+}
+
+.nav-profile{
+    width: 75px;
+    cursor: pointer;
+}
+
+@media (max-width: 800px){
+
+    .navbar{
+        padding: 15px 30px;
+    }
+
+    .nav-logo{
+        width: 150px;
+    }
+
+    .nav-profile{
+        width: 60px;
+    }
+}

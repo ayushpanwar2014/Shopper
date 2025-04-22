@@ -22,7 +22,7 @@ app.use(cors())
 app.use(morgan('dev'));
 
 //Database Connection with MongoDB
-mongoose.connect("mongodb+srv://ayushpanwar2014:fjAPdR7SMRAkX2Hb@cluster0.orj5n.mongodb.net/Shopper?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("******")
 .then(() => {
     console.log("MongoDb Connected!");
 });
